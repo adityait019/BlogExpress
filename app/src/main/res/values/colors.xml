@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="Lavender">#6750A4</color>
+    <color name="ButtonColor">#FDD835</color>
+    <color name="transparent">#B9FFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#0ABCAA</color>
+    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="trans">#1EFFFFFF</color>
+    <color name="user_chat_color">#74A2D863</color>
+    <color name="dark_blue">#071460</color>
+    <color name="light_blue">#335ECB</color>
+    <color name="white_smoke">#DAD1D1</color>
+    <color name="brown">#766868</color>
+    <color name="yellow_light">#9AA039</color>
+    <color name="yellow_solid">#EAC213</color>
 </resources>

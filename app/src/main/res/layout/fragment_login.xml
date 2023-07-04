@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="190dp"
+        android:fontFamily="serif"
+        android:text="@string/blogexpress"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_24dp"
+        app:cardElevation="@dimen/_12dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="@color/yellow_solid">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/_16dp">
+
+            <EditText
+                android:id="@+id/username"
+                style="@style/widget_edit_text_style"
+                android:hint="@string/prompt_email"
+                android:inputType="textEmailAddress"
+                android:autofillHints="emailAddress" />
+
+            <EditText
+                android:id="@+id/password"
+                style="@style/widget_edit_text_style"
+                android:hint="@string/prompt_password"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:selectAllOnFocus="true"
+                android:autofillHints="password" />
+
+            <Button
+                android:id="@+id/login"
+                style="@style/widget_button_style"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/aladin"
+                android:text="@string/action_sign_in" />
+            <TextView
+                android:id="@+id/dont_have_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/dontHave_account"
+                android:padding="@dimen/widgets_padding"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+</FrameLayout>
