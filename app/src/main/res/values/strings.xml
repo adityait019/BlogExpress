@@ -11,7 +11,7 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
-    <string name="blogexpress">BlogExpress</string>
+    <string name="blog_express">BlogExpress</string>
     <string name="dontHave_account">don\'t have account?SignUp</string>
     <string name="Have_account">Already have account?Login</string>
 
@@ -23,6 +23,14 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+
+    <string name="home">Home</string>
+    <string name="draft">Draft</string>
+    <string name="published">Published</string>
+    <string name="account">Account</string>
+
+    <string name="multi_color_text"><![CDATA[Blog <font color="#EAC213">Express</font>]]></string>
+    <string name="title_activity_registration">RegistrationActivity</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
@@ -60,8 +68,5 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
-    <string name="home">Home</string>
-    <string name="draft">Draft</string>
-    <string name="published">Published</string>
-    <string name="account">Account</string>
+
 </resources>
